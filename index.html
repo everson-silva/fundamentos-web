@@ -4,10 +4,11 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Meu Perfil</title>
+    <link rel="stylesheet" href="assets/css/style.css">
 </head>
 <body>
 
-    <ul>
+    <ul id="menu">
         <li>
             <a href="index.html">Home</a>
         </li>
@@ -16,22 +17,56 @@
         </li>
     </ul>
 
-    <h1>Sobre Everson</h1>
-    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Error libero velit in repellendus consequuntur, fugit distinctio maxime voluptatum adipisci qui a ullam sequi et eos quos non? Non, culpa ducimus!
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellendus laudantium saepe ducimus minima placeat voluptatem quia expedita rerum. Sequi impedit dolorem unde aut consequatur tempora in rem maxime quae repellendus!
-    </p>
+    <h1 class="center">Sobre Everson</h1>
+    <div class="container">
+        <div class="p-30">
+            <p class="justify">
+                Lorem, ipsum dolor sit amet consectetur adipisicing elit. Error libero velit in repellendus consequuntur, fugit distinctio maxime voluptatum adipisci qui a ullam sequi et eos quos non? Non, culpa ducimus!
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellendus laudantium saepe ducimus minima placeat voluptatem quia expedita rerum. Sequi impedit dolorem unde aut consequatur tempora in rem maxime quae repellendus!
+            </p>
+        </div>
+        
+        <div>
+            <img class="br-50 wh-300 p-30" src="assets/img/mussum.jpg" alt="Foto do criador do conteudo">
+        </div>
+       
+    </div>
+    
 
-    <img src="assets/img/mussum.jpg" alt="Foto do criador do conteudo">
+    
 
-    <h2>Meu video predileto:</h2>
+    <h2 class="center">Meu video predileto:</h2>
 
-    <iframe 
-    width="560" 
-    height="315" 
-    src="https://www.youtube.com/embed/NUYvbT6vTPs" 
-    frameborder="0" 
-    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
-    allowfullscreen></iframe>
+    <div class="container mb-50">
+        <iframe 
+        width="560" 
+        height="315" 
+        src="https://www.youtube.com/embed/NUYvbT6vTPs" 
+        frameborder="0" 
+        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
+        allowfullscreen
+        ></iframe>
+    </div>
+
+    <hr>
+    <footer>
+        
+        <div class="container">
+            
+            <a href="https://www.linkedin.com/in/eversonmessias">
+                <img class="tm-social p-30" src="assets/img/linkedin.svg" alt="Logo do Linkedin">
+            </a>
+            <a href="https://github.com/everson-silva">
+                <img class="tm-social p-30" src="assets/img/github.svg" alt="Logo do GitHub">
+            </a>
+            
+        </div>
+
+        <p class="center">
+            Todos os direitos reservados: Everson Silva &copy
+        </p>
+        
+    </footer>
 
 </body>
 </html>
